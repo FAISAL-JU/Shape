@@ -15,10 +15,12 @@ public class Rectangle {
     }
     
     public int getArea() { 
-        return length*breadth; // write code to calculate area here
+        return length*breadth; 
     } 
     
-    // write code to calculate perimeter here
-    // getPerimeter()
+    public int getPerimeter() { 
+        return 2*(length+breadth); 
+    } 
+   
     
 }
